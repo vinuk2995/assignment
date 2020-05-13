@@ -1,0 +1,72 @@
+.ant-input{
+    /* background-color: black; */
+    /* border-color: black; */
+    /* color: white; */
+}
+.ant-input:hover{
+    /* background-color: black; */
+    /* border-color: black; */
+}
+
+.ant-form-item-label > label{
+    color: darkgray;
+}
+.required::after{
+    content:"*";
+    font-weight:bold;
+    color: red;
+}
+
+.backButton , .backButton:hover{
+    margin-left: 73%;
+    margin-bottom: 10%;
+    color: white;
+    background-color: black;
+    border-color: rgb(46, 44, 44);
+    margin-bottom: 2%;
+}
+.nextButton , .nextButton:hover{
+    color: white;
+    margin-left: 1%;
+    background-color: orangered;
+    border-color: rgb(46, 44, 44);
+    margin-bottom: 3%;
+}
+
+.resetButton , .resetButton:hover{
+    margin-bottom: 3%;
+    color: white;
+    background-color: black;
+    border-color: rgb(46, 44, 44);
+
+}
+
+.ant-select{
+    background-color: black;
+    color: black;
+}
+
+.ant-checkbox-wrapper{
+    color: darkgray;
+}
+
+.checkBox{
+    margin-left: 33.4%;
+  }
+
+.marginbottom{
+    margin-bottom: 15px;
+}  
+
+.ant-checkbox-checked .ant-checkbox-inner{
+    background-color: orangered;
+}
+
+.resultsBarDiv{
+   display: flex;
+  justify-content: space-between;
+}
+
+.anticon svg{
+    color: orangered;
+}
